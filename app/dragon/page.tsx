@@ -34,8 +34,8 @@ const DragonHologram = () => {
         self.traverse((child) => {
           if (child instanceof THREE.Mesh) {
             child.material = new THREE.MeshStandardMaterial({
-              color: new THREE.Color("red"),
-              emissive: new THREE.Color("red"),
+              color: new THREE.Color("cyan"),
+              emissive: new THREE.Color("cyan"),
               transparent: true,
               opacity: 0.8,
               wireframe: true,
