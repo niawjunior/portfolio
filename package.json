@@ -17,7 +17,6 @@
     "@react-three/fiber": "^9.1.0",
     "@react-three/rapier": "^2.0.0",
     "babel-plugin-glsl": "^1.0.0",
-    "d3": "^7.9.0",
     "drei": "^2.2.21",
     "framer-motion": "^12.5.0",
     "gsap": "^3.12.7",
@@ -31,7 +30,6 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4.0.14",
-    "@types/d3": "^7.4.3",
     "@types/howler": "^2.2.12",
     "@types/node": "^20",
     "@types/p5": "^1.7.6",

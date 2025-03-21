@@ -25,11 +25,6 @@ const projects = [
     description: "A 3D dragon hologram.",
   },
   {
-    name: "Thailand Map",
-    path: "/thailand-map",
-    description: "A Thailand Map",
-  },
-  {
     name: "Sound Reactive",
     path: "/sound-reactive",
     description: "Sound Reactive",
