@@ -19,6 +19,11 @@ const projects = [
     path: "/tornado",
     description: "A website with a tornado effect.",
   },
+  {
+    name: "Dragon",
+    path: "/dragon",
+    description: "A 3D dragon hologram.",
+  },
 ];
 
 export default function Home() {
