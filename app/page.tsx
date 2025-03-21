@@ -14,6 +14,11 @@ const projects = [
     path: "/golf-physics-simulator",
     description: "Realistic golf physics with motion tracking.",
   },
+  {
+    name: "Tornado",
+    path: "/tornado",
+    description: "A website with a tornado effect.",
+  },
 ];
 
 export default function Home() {
