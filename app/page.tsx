@@ -24,6 +24,16 @@ const projects = [
     path: "/dragon",
     description: "A 3D dragon hologram.",
   },
+  {
+    name: "Thailand Map",
+    path: "/thailand-map",
+    description: "A Thailand Map",
+  },
+  {
+    name: "Sound Reactive",
+    path: "/sound-reactive",
+    description: "Sound Reactive",
+  },
 ];
 
 export default function Home() {

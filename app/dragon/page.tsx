@@ -34,11 +34,13 @@ const DragonHologram = () => {
         self.traverse((child) => {
           if (child instanceof THREE.Mesh) {
             child.material = new THREE.MeshStandardMaterial({
-              color: new THREE.Color("cyan"),
-              emissive: new THREE.Color("cyan"),
+              color: new THREE.Color("red"),
+              emissive: new THREE.Color("red"),
               transparent: true,
               opacity: 0.8,
               wireframe: true,
+              roughness: 0.2,
+              metalness: 0.9,
             });
           }
         });
@@ -71,7 +73,7 @@ const GridFloor = () => {
   return (
     <gridHelper
       args={[20, 40, "cyan", "cyan"]}
-      position={[0, -1, 0]}
+      position={[0, -2, 0]}
       rotation={[0, 0, 0]}
     />
   );
